@@ -85,8 +85,6 @@ void draw(){
   rect(1000-74-1,148+64+72-1,74,64);
   rect(1000-152-1,132-1,152-74,496-132-132-1);
   
-  
-  
   //Movement Calculations
   if (keyLeft) field.players[0].turnLeft();
   if (keyRight) field.players[0].turnRight();
@@ -96,9 +94,6 @@ void draw(){
   field.players[0].move();
   field.show();
 }
-
-
-
 
 //Movement management
 void keyPressed(){

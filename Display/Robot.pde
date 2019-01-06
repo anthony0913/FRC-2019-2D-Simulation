@@ -33,7 +33,7 @@ class Robot{
   //Display
   void show(){  
     pushMatrix();
-    translate(pos[0]+size/2,pos[1]+size/2); //Robots use their back left wheel as a pivot point
+    translate(pos[0]+size/2,pos[1]+size/2); //Robots use their centers as pivot points
     rotate((-1)*direction);
     fill(55,55,55);
     rect(-size/2,-size/2,size,size);
